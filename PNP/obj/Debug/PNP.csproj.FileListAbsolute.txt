@@ -1,0 +1,13 @@
+C:\Users\Nion\Desktop\PNP1\PNP\bin\Debug\PNP.exe.config
+C:\Users\Nion\Desktop\PNP1\PNP\bin\Debug\PNP.exe
+C:\Users\Nion\Desktop\PNP1\PNP\bin\Debug\PNP.pdb
+C:\Users\Nion\Desktop\PNP1\PNP\obj\Debug\PNP.csprojAssemblyReference.cache
+C:\Users\Nion\Desktop\PNP1\PNP\obj\Debug\PNP.Form1.resources
+C:\Users\Nion\Desktop\PNP1\PNP\obj\Debug\PNP.Properties.Resources.resources
+C:\Users\Nion\Desktop\PNP1\PNP\obj\Debug\PNP.csproj.GenerateResource.cache
+C:\Users\Nion\Desktop\PNP1\PNP\obj\Debug\PNP.csproj.CoreCompileInputs.cache
+C:\Users\Nion\Desktop\PNP1\PNP\obj\Debug\PNP.exe
+C:\Users\Nion\Desktop\PNP1\PNP\obj\Debug\PNP.pdb
+C:\Users\Nion\Desktop\PNP1\PNP\obj\Debug\PNP.admin.resources
+C:\Users\Nion\Desktop\PNP1\PNP\obj\Debug\PNP.Doctor.resources
+C:\Users\Nion\Desktop\PNP1\PNP\obj\Debug\PNP.Reception.resources
