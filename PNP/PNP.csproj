@@ -72,6 +72,12 @@
     <Compile Include="Reception.Designer.cs">
       <DependentUpon>Reception.cs</DependentUpon>
     </Compile>
+    <Compile Include="Reception2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reception2.Designer.cs">
+      <DependentUpon>Reception2.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="admin.resx">
       <DependentUpon>admin.cs</DependentUpon>
     </EmbeddedResource>
@@ -89,9 +95,13 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Reception.resx">
       <DependentUpon>Reception.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reception2.resx">
+      <DependentUpon>Reception2.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -105,6 +115,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6bdf5cc7c32c55e6a768f62c04087a31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -85,6 +85,7 @@ namespace PNP
             this.tbpassword.Name = "tbpassword";
             this.tbpassword.Size = new System.Drawing.Size(192, 30);
             this.tbpassword.TabIndex = 8;
+            this.tbpassword.UseSystemPasswordChar = true;
             // 
             // tbusername
             // 
