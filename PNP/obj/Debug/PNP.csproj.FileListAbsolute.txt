@@ -14,3 +14,4 @@ C:\Users\Nion\Desktop\PNP1\PNP\obj\Debug\PNP.Reception.resources
 C:\Users\Nion\Desktop\PNP1\PNP\obj\Debug\PNP.Reception2.resources
 C:\Users\Nion\Desktop\PNP1\PNP\obj\Debug\PNP.Doctor2.resources
 C:\Users\Nion\Desktop\PNP1\PNP\obj\Debug\PNP.Reception3Ad.resources
+C:\Users\Nion\Desktop\PNP1\PNP\obj\Debug\PNP.Doctorinsert.resources

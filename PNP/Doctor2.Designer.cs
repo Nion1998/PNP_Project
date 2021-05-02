@@ -39,17 +39,18 @@ namespace PNP
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button8 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(15, 221);
+            this.dataGridView1.Location = new System.Drawing.Point(15, 233);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1183, 359);
+            this.dataGridView1.Size = new System.Drawing.Size(1167, 343);
             this.dataGridView1.TabIndex = 72;
             // 
             // button6
@@ -70,7 +71,7 @@ namespace PNP
             this.button4.BackColor = System.Drawing.Color.SlateBlue;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.button4.Location = new System.Drawing.Point(871, 586);
+            this.button4.Location = new System.Drawing.Point(882, 586);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(169, 46);
             this.button4.TabIndex = 69;
@@ -84,7 +85,7 @@ namespace PNP
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.button3.Location = new System.Drawing.Point(15, 181);
+            this.button3.Location = new System.Drawing.Point(12, 182);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(105, 32);
             this.button3.TabIndex = 68;
@@ -96,7 +97,7 @@ namespace PNP
             // 
             this.textBox10.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.textBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(139, 181);
+            this.textBox10.Location = new System.Drawing.Point(123, 182);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(321, 30);
             this.textBox10.TabIndex = 67;
@@ -142,7 +143,7 @@ namespace PNP
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(26, 89);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(321, 48);
+            this.textBox1.Size = new System.Drawing.Size(321, 38);
             this.textBox1.TabIndex = 73;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -159,11 +160,25 @@ namespace PNP
             this.button8.UseVisualStyleBackColor = false;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.SlateBlue;
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.button5.Location = new System.Drawing.Point(693, 586);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(169, 46);
+            this.button5.TabIndex = 84;
+            this.button5.Text = "Insert";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click_1);
+            // 
             // Doctor2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1210, 791);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.dataGridView1);
@@ -195,5 +210,6 @@ namespace PNP
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button5;
     }
 }

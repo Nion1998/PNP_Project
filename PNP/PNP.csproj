@@ -64,6 +64,12 @@
     <Compile Include="Doctor2.Designer.cs">
       <DependentUpon>Doctor2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Doctorinsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doctorinsert.Designer.cs">
+      <DependentUpon>Doctorinsert.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +104,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Doctor2.resx">
       <DependentUpon>Doctor2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doctorinsert.resx">
+      <DependentUpon>Doctorinsert.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
