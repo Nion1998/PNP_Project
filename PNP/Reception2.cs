@@ -131,7 +131,6 @@ namespace PNP
         {
            
             con.Open();
-
             SqlCommand cmd = con.CreateCommand();
             cmd.CommandType = CommandType.Text;
             cmd.CommandText = "delete from Appointment_tb where name='" + textBox10.Text + "'";
@@ -160,6 +159,18 @@ namespace PNP
         private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
         {
             disp_data();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new Reception3Ad().Show() ;
+            this.Hide();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            new Form1().Show();
+            this.Hide();
         }
     }
 }

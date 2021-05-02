@@ -50,5 +50,36 @@ namespace PNP
         {
 
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tbpassword_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tbusername_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            new Form1().Show();
+            this.Hide();
+        }
     }
 }
